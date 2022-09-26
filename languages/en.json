@@ -1,0 +1,18 @@
+{
+    "menu":{
+        "about-me-item": "About me",
+        "projects-item": "Projects",
+        "contact-item": "Contact",
+        "change-language-item":"Change language",
+        "spanish-item": "Spanish",
+        "english-item": "English"
+
+    },
+    "profile":{
+        "about-me-title": "About me",
+        "first-paragraph": "I am an electronics engineer who likes to build things with code.",
+        "second-paragraph": "My love for programming started in 2017, in the second semester of my degree. After learning the basics and practicing constantly, programming really got me hooked. From making a game with LEDs to making a robot come out of a maze was exciting to watch.",
+        "third-paragraph": "Programming is to see your logic expressed in a computer telling it what to do, it is something that challenges you constantly and I think the best way to learn is to do projects directly, this really strengthens the skills not only in the language in which you program but also improves the ability to solve problems.",
+        "fourth-paragraph": "I am now looking for a full-time job where I can contribute my skills to a company, achieve goals and continue to grow professionally."
+    }
+}

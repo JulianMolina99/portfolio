@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Portfolio Julian Molina</title>
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.png">
+</head>
+<body>
+  <header class="header">
+
+    <div class="change-mode">
+      <div class="toggle-theme" id="toggle-theme">
+        <i class="fa-solid fa-moon toggle-theme__icon" id="toggle-icon"></i>
+        <a class="item-nav-link toggle-theme__text" id="toggle-text">Dark mode</a>
+      </div>
+    </div>
+
+    <div class="menu-big-screen">
+      <div class="sections" id="section-page">
+        <div class="section-item">
+          <i class="fa-solid fa-user"></i>
+          <a href="#about-me-section" class="item-nav-link" data-section="menu" data-value="about-me-item">Acerca de mi</a>
+        </div>
+        <div class="section-item">
+          <i class="fa-solid fa-diagram-project"></i>
+          <a href="#projects-section" class="item-nav-link" data-section="menu" data-value="projects-item">Proyectos</a>
+        </div>
+        <div class="section-item">
+          <i class="fa-solid fa-address-book"></i>
+          <a href="#contact-section" class="item-nav-link" data-section="menu" data-value="contact-item">Contacto</a>
+        </div>
+        <div class="section-item">
+          <div class="section-item__change-language">
+            <i class="fa-solid fa-language"></i>
+            <a href="#" class="item-nav-link section-item-language" id="section-item-language" data-section="menu" data-value="change-language-item">Cambiar idioma</a>
+          </div>
+          <div class="section-language-content" id="section-language-content">
+            <a href="#" class="item-nav-link item-nav-link--color" id="spanish-language" data-section="menu" data-value="spanish-item">Español</a>
+            <a href="#" class="item-nav-link item-nav-link--color" id="english-language" data-section="menu" data-value="english-item">Ingles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  <main class="main">
+    <section class="row-1"  id="about-me-section">
+      <article class="about-me">
+
+        <div class="about-me__title">
+          <h2 data-section="profile" data-value="about-me-title">Acerca de mi</h2>
+        </div>
+
+        <div class="about-me__body">
+          <div class="about-me__image">
+            <img src="assets/images/image-perfil.png" alt="image-perfil" class="about-me__profile-image">
+          </div>
+          <div class="about-me__description">
+            <p data-section="profile" data-value="first-paragraph">Soy un Ingeniero Electronico al que le gusta construir cosas con codigo.</p>
+
+            <p data-section="profile" data-value="second-paragraph">Mi gusto por la programacion comenzo en el 2017, en el segundo semestre de la carrera. Despues de aprender los conceptos basicos y practicar constantemente, la programacion realmente me engancho. Desde hacer un juego con leds hasta hacer que un robot saliera de un laberinto era algo muy emocionante de ver.</p>
+
+            <p data-section="profile" data-value="third-paragraph">Programar es ver tu logica plasmada en un computador diciendole que debe hacer, es algo que te reta constantemente y creo que la mejor forma de aprender es hacer proyectos directamente, esto realmente fortalece las habilidades no solo en el lenguaje en el que programas sino que tambien mejora la capacidad de resolver problemas.</p>
+
+            <p data-section="profile" data-value="fourth-paragraph">Ahora estoy buscando un empleo de tiempo completo en donde pueda contribuir a una empresa con mis habilidades, alcanzar objetivos y seguir creciendo profesionalmente.</p>
+
+          </div>
+        </div>
+
+      </article>
+
+      <article class="skills">
+        <div class="skills__html"></div>
+        <div class="skills__js"></div>
+        <div class="skills__css"></div>
+        <div class="skills__git"></div>
+
+      </article>
+    </section>
+
+
+    <section class="row-2" id="projects-section">
+
+      <article class="projects-introduction">
+        <div class="projects-introduction__title">
+          <h2>Proyectos personales</h2>
+        </div>
+        <div class="projects-introduction__description">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quidem, ipsam doloremque suscipit, minima nesciunt pariatur hic, recusandae obcaecati expedita fuga! Veritatis itaque minus commodi obcaecati cum eum eligendi aut.</p>
+        </div>
+      </article>
+
+
+      <article class="card-project">
+        <div class="project__image-container">
+          <img src="assets/images/wikipedia.png" alt="project wikipedia overview" class="project-image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+          </div>
+          
+          <h2 class="project__title">Wikipedia App</h2>
+          <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
+          <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
+          <div class="project__buttons">
+            <a href="#" class="button"><i class="fa-solid fa-window-restore"></i> Demo</a>
+            <a href="#" class="button"><i class="fa-brands fa-github"></i> Codigo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card-project">
+        <div class="project__image-container">
+          <img src="assets/images/notes-app.png" alt="project wikipedia overview" class="project-image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+          </div>
+          
+          <h2 class="project__title">Notes App</h2>
+          <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
+          <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
+          <div class="project__buttons">
+            <a href="#" class="button"><i class="fa-solid fa-window-restore"></i> Demo</a>
+            <a href="#" class="button"><i class="fa-brands fa-github"></i> Codigo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card-project">
+        <div class="project__image-container">
+          <img src="assets/images/calculator-app.png" alt="project wikipedia overview" class="project-image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+          </div>
+          
+          <h2 class="project__title">Calculator app</h2>
+          <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
+          <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
+          <div class="project__buttons">
+            <a href="#" class="button"><i class="fa-solid fa-window-restore"></i> Demo</a>
+            <a href="#" class="button "><i class="fa-brands fa-github"></i> Codigo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card-project">
+        <div class="project__image-container">
+          <img src="" alt="project wikipedia overview" class="project-image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+          </div>
+          
+          <h2 class="project__title">Counterdown</h2>
+          <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
+          <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
+          <div class="project__buttons">
+            <a href="#" class="button"><i class="fa-solid fa-window-restore"></i> Demo</a>
+            <a href="#" class="button"><i class="fa-brands fa-github"></i> Codigo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card-project">
+        <div class="project__image-container">
+          <img src="assets/images/app-movies.png" alt="project wikipedia overview" class="project-image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          
+          <h2 class="project__title">Movies app</h2>
+          <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
+          <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
+          <div class="project__buttons">
+            <a href="#" class="button "><i class="fa-solid fa-window-restore"></i> Demo</a>
+            <a href="#" class="button "><i class="fa-brands fa-github"></i> Codigo</a>
+          </div>
+        </div>
+      </article>
+
+
+    </section>
+
+    <section class="contact" id="contact-section">
+
+      <div class="contact-title-container">
+        <h2 class="contact__title">Contacto</h2>
+      </div>
+
+      <div class="contact-body-container">
+  
+        <div class="contact__item">
+          <i class="fa-brands fa-github contact-icon contact-icon--black"></i>
+          <a href="https://github.com/JulianMolina99" class="contact__link" target="_blank"> github</a>
+        </div>
+        <div class="contact__item">
+          <span></span>
+        </div>
+        <div class="contact__item">
+          <i class="fa-solid fa-envelope contact-icon contact-icon--red"></i>
+          <a href="mailto: julianmolinac99@gmail.com" class="contact__link" target="_blank">Gmail</a>
+        </div>
+        <div class="contact__item">
+          <span></span>
+        </div>
+        <div class="contact__item">
+          <i class="fa-brands fa-linkedin contact-icon contact-icon--blue"></i>
+          <a href="https://www.linkedin.com/in/julian-steven-molina-campos/" class="contact__link" target="_blank">linkedin</a>
+        </div>
+  
+      </div>
+
+    </section>
+  </main>
+  
+  <footer>
+    <div class="footer_container">
+      <p class="footer__text">Copyright &copy; 2022. &#64; Julian Molina</p>
+      <p class="footer__text">All Rights Reserved</p>
+      
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

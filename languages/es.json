@@ -1,0 +1,18 @@
+{
+    "menu":{
+        "about-me-item": "Acerca de mí",
+        "projects-item": "Proyectos",
+        "contact-item": "Contacto",
+        "change-language-item":"Cambiar idioma",
+        "spanish-item": "Español",
+        "english-item": "Ingles"
+
+    },
+    "profile":{
+        "about-me-title": "Acerca de mí",
+        "first-paragraph": "Soy un Ingeniero Electronico al que le gusta construir cosas con codigo.",
+        "second-paragraph": "Mi gusto por la programacion comenzo en el 2017, en el segundo semestre de la carrera. Despues de aprender los conceptos basicos y practicar constantemente, la programacion realmente me engancho. Desde hacer un juego con leds hasta hacer que un robot saliera de un laberinto era algo muy emocionante de ver.",
+        "third-paragraph": "Programar es ver tu logica plasmada en un computador diciendole que debe hacer, es algo que te reta constantemente y creo que la mejor forma de aprender es hacer proyectos directamente, esto realmente fortalece las habilidades no solo en el lenguaje en el que programas sino que tambien mejora la capacidad de resolver problemas.",
+        "fourth-paragraph": "Ahora estoy buscando un empleo de tiempo completo en donde pueda contribuir a una empresa con mis habilidades, alcanzar objetivos y seguir creciendo profesionalmente."
+    }
+}
