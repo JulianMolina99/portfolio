@@ -186,13 +186,14 @@ body.dark{
     justify-content: space-between;
     font-size: .6rem;
     width: 100%;
+    flex-wrap: wrap;
     margin-right: auto;
     margin-left: auto;
 }
 
 @media screen and (min-width:760px){
     .project__tags{
-        width: 325px;
+        width: 100%;
         font-size: .8rem;
         margin: 0;
     }
