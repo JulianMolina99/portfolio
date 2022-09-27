@@ -7,7 +7,7 @@ const languageContent = document.getElementById('section-language-content');
 const btnSpanish = document.getElementById('spanish-language');
 const btnEnglish = document.getElementById('english-language');
 const textInPage = document.querySelectorAll("[data-section]");
-
+let stateIconMode = true;
 
 const changeLanguage = async (language) => {
     const json = await fetch(`./languages/${language}.json`);
@@ -33,14 +33,14 @@ btnLanguage.addEventListener('click', ()=>{
 
 toggleTheme.addEventListener('click', ()=>{
     document.body.classList.toggle('dark');
-    if(toggleIcon.classList.contains('fa-moon')){
-        toggleIcon.classList.remove('fa-moon');
-        toggleIcon.classList.add('fa-sun');
-        toggleText.innerHTML = 'light mode'
+    if(stateIconMode){
+        toggleIcon.src = './assets/icon/sun-regular.svg'
+        toggleText.textContent = 'light mode'
+        stateIconMode = !stateIconMode;
     } else{
-        toggleIcon.classList.remove('fa-sun');
-        toggleIcon.classList.add('fa-moon');
-        toggleText.innerHTML = 'Dark mode';
+        toggleIcon.src = './assets/icon/moon-regular.svg'
+        toggleText.textContent = 'Dark mode';
+        stateIconMode = !stateIconMode;
     }
 });
 
@@ -52,4 +52,5 @@ btnEnglish.addEventListener('click', ()=>{
 btnSpanish.addEventListener('click', ()=>{
     languageContent.classList.remove('language-content--show');
     changeLanguage("es");
-})
+});
+

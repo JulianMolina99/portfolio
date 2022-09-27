@@ -3,20 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Varela+Round&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Portfolio Julian Molina</title>
-  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.png">
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
 </head>
 <body>
   <header class="header">
 
     <div class="change-mode">
       <div class="toggle-theme" id="toggle-theme">
-        <i class="fa-solid fa-moon toggle-theme__icon" id="toggle-icon"></i>
+        <img src="assets/icon/moon-regular.svg" alt="" class="icon-mode" id="toggle-icon">
         <a class="item-nav-link toggle-theme__text" id="toggle-text">Dark mode</a>
       </div>
     </div>
@@ -24,25 +23,25 @@
     <div class="menu-big-screen">
       <div class="sections" id="section-page">
         <div class="section-item">
-          <i class="fa-solid fa-user"></i>
+          <img src="assets/icon/user-solid.svg" alt="" class="icon-menu">
           <a href="#about-me-section" class="item-nav-link" data-section="menu" data-value="about-me-item">Acerca de mi</a>
         </div>
         <div class="section-item">
-          <i class="fa-solid fa-diagram-project"></i>
+          <img src="assets/icon/diagram-project.svg" alt="" class="icon-menu">
           <a href="#projects-section" class="item-nav-link" data-section="menu" data-value="projects-item">Proyectos</a>
         </div>
         <div class="section-item">
-          <i class="fa-solid fa-address-book"></i>
+          <img src="assets/icon/contact.svg" alt="" class="icon-menu">
           <a href="#contact-section" class="item-nav-link" data-section="menu" data-value="contact-item">Contacto</a>
         </div>
         <div class="section-item">
           <div class="section-item__change-language">
-            <i class="fa-solid fa-language"></i>
-            <a href="#" class="item-nav-link section-item-language" id="section-item-language" data-section="menu" data-value="change-language-item">Cambiar idioma</a>
+            <img src="assets/icon/language-solid.svg" alt="" class="icon-menu">
+            <a href="#!" class="item-nav-link section-item-language" id="section-item-language" data-section="menu" data-value="change-language-item">Cambiar idioma</a>
           </div>
           <div class="section-language-content" id="section-language-content">
-            <a href="#" class="item-nav-link item-nav-link--color" id="spanish-language" data-section="menu" data-value="spanish-item">Español</a>
-            <a href="#" class="item-nav-link item-nav-link--color" id="english-language" data-section="menu" data-value="english-item">Ingles</a>
+            <a href="#!" class="item-nav-link item-nav-link--color" id="spanish-language" data-section="menu" data-value="spanish-item">Español</a>
+            <a href="#!" class="item-nav-link item-nav-link--color" id="english-language" data-section="menu" data-value="english-item">Ingles</a>
           </div>
         </div>
       </div>
@@ -61,7 +60,7 @@
 
         <div class="about-me__body">
           <div class="about-me__image">
-            <img src="assets/images/image-perfil.png" alt="image-perfil" class="about-me__profile-image">
+            <img src="assets/images/image-perfil.webp" alt="image-perfil" class="about-me__profile-image">
           </div>
           <div class="about-me__description">
             <p data-section="profile" data-value="first-paragraph">Soy un Ingeniero Electronico al que le gusta construir cosas con codigo.</p>
@@ -101,7 +100,7 @@
 
       <article class="card-project">
         <div class="project__image-container">
-          <img src="assets/images/wikipedia.png" alt="project wikipedia overview" class="project-image">
+          <img src="assets/images/wikipedia-min.webp" alt="project wikipedia overview" class="project-image">
         </div>
         <div class="project">
           <div class="project__tags">
@@ -114,15 +113,15 @@
           <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
           <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
           <div class="project__buttons">
-            <a href="#" class="button"><i class="fa-solid fa-window-restore project-icon"></i><span>demo</span></a>
-            <a href="#" class="button"><i class="fa-brands fa-github project-icon"></i><span>codigo</span></a>
+            <a href="#" class="button"><img src="assets/icon/window-restore-solid.svg" alt="" class="project-icon"><span>demo</span></a>
+            <a href="#" class="button"><img src="assets/icon/github.svg" alt="" class="project-icon"><span>codigo</span></a>
           </div>
         </div>
       </article>
 
       <article class="card-project">
         <div class="project__image-container">
-          <img src="assets/images/notes-app.png" alt="project wikipedia overview" class="project-image">
+          <img src="assets/images/notes-app.webp" alt="project wikipedia overview" class="project-image">
         </div>
         <div class="project">
           <div class="project__tags">
@@ -136,15 +135,15 @@
           <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
           <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
           <div class="project__buttons">
-            <a href="#" class="button"><i class="fa-solid fa-window-restore project-icon"></i><span>demo</span></a>
-            <a href="#" class="button"><i class="fa-brands fa-github project-icon"></i><span>codigo</span></a>
+            <a href="#" class="button"><img src="assets/icon/window-restore-solid.svg" alt="" class="project-icon"><span>demo</span></a>
+            <a href="#" class="button"><img src="assets/icon/github.svg" alt="" class="project-icon"><span>codigo</span></a>
           </div>
         </div>
       </article>
 
       <article class="card-project">
         <div class="project__image-container">
-          <img src="assets/images/calculator-app.png" alt="project wikipedia overview" class="project-image">
+          <img src="assets/images/calculator-app.webp" alt="project wikipedia overview" class="project-image">
         </div>
         <div class="project">
           <div class="project__tags">
@@ -157,15 +156,15 @@
           <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
           <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
           <div class="project__buttons">
-            <a href="#" class="button"><i class="fa-solid fa-window-restore project-icon"></i><span>demo</span></a>
-            <a href="#" class="button"><i class="fa-brands fa-github project-icon"></i><span>codigo</span></a>
+            <a href="#" class="button"><img src="assets/icon/window-restore-solid.svg" alt="" class="project-icon"><span>demo</span></a>
+            <a href="#" class="button"><img src="assets/icon/github.svg" alt="" class="project-icon"><span>codigo</span></a>
           </div>
         </div>
       </article>
 
       <article class="card-project">
         <div class="project__image-container">
-          <img src="assets/images/counterdown-timer.JPG" alt="project wikipedia overview" class="project-image">
+          <img src="assets/images/counterdown-timer.webp" alt="project wikipedia overview" class="project-image">
         </div>
         <div class="project">
           <div class="project__tags">
@@ -179,15 +178,15 @@
           <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
           <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
           <div class="project__buttons">
-            <a href="#" class="button"><i class="fa-solid fa-window-restore project-icon"></i><span>demo</span></a>
-            <a href="#" class="button"><i class="fa-brands fa-github project-icon"></i><span>codigo</span></a>
+            <a href="#" class="button"><img src="assets/icon/window-restore-solid.svg" alt="" class="project-icon"><span>demo</span></a>
+            <a href="#" class="button"><img src="assets/icon/github.svg" alt="" class="project-icon"><span>codigo</span></a>
           </div>
         </div>
       </article>
 
       <article class="card-project">
         <div class="project__image-container">
-          <img src="assets/images/app-movies.png" alt="project wikipedia overview" class="project-image">
+          <img src="assets/images/app-movies.webp" alt="project wikipedia overview" class="project-image">
         </div>
         <div class="project">
           <div class="project__tags">
@@ -201,8 +200,9 @@
           <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nobis odit nam aperiam soluta culpa. Ex dolor explicabo quaerat pariatur ut tempora laboriosam in iure beatae quo! Mollitia, saepe error!</p>
           <p class="project__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis explicabo animi cupiditate fugit, eos iure beatae atque libero sunt illum eum ratione unde assumenda! Molestias vero delectus laudantium consectetur!</p>
           <div class="project__buttons">
-            <a href="#" class="button"><i class="fa-solid fa-window-restore project-icon"></i><span>demo</span></a>
-            <a href="#" class="button"><i class="fa-brands fa-github project-icon"></i><span>codigo</span></a>
+            <a href="#" class="button"><img src="assets/icon/window-restore-solid.svg" alt="" class="project-icon"><span>demo</span></a>
+            <a href="#" class="button"><img src="assets/icon/github.svg" alt="" class="project-icon"><span>codigo</span></a>
+            
           </div>
         </div>
       </article>
@@ -219,21 +219,15 @@
       <div class="contact-body-container">
   
         <div class="contact__item">
-          <i class="fa-brands fa-github contact-icon contact-icon--black"></i>
+          <img src="assets/icon/github.svg" alt="" class="contact-icon contact-icon--black">
           <a href="https://github.com/JulianMolina99" class="contact__link" target="_blank"> github</a>
         </div>
         <div class="contact__item">
-          <span></span>
-        </div>
-        <div class="contact__item">
-          <i class="fa-solid fa-envelope contact-icon contact-icon--red"></i>
+          <img src="assets/icon/email.svg" alt="" class="contact-icon contact-icon--red">
           <a href="mailto: julianmolinac99@gmail.com" class="contact__link" target="_blank">Gmail</a>
         </div>
         <div class="contact__item">
-          <span></span>
-        </div>
-        <div class="contact__item">
-          <i class="fa-brands fa-linkedin contact-icon contact-icon--blue"></i>
+          <img src="assets/icon/linkedin.svg" alt="" class="contact-icon contact-icon--blue">
           <a href="https://www.linkedin.com/in/julian-steven-molina-campos/" class="contact__link" target="_blank">linkedin</a>
         </div>
   

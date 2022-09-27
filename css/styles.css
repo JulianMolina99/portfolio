@@ -16,7 +16,9 @@ body{
     --bg-header-color: #ecf0f1;
     --bg-project-color: #ecf0f1;
     --bg-tags-color: #bdc3c7;
-    --color-github: #24292f;
+    --color-icon-menu: invert(5%) sepia(6%) saturate(3572%) hue-rotate(177deg) brightness(97%) contrast(96%);
+    --color-github: invert(13%) sepia(25%) saturate(352%) hue-rotate(172deg) brightness(96%) contrast(92%);
+    --color-filter-project-icons: invert(99%) sepia(49%) saturate(1072%) hue-rotate(177deg) brightness(104%) contrast(89%);
     --change-color: color 0.2s, background-color 0.2s ease-in-out;
   }
 
@@ -27,7 +29,8 @@ body.dark{
     --bg-project-color: #191e25;
     --bg-tags-color: #bdc3c7;
     --bg-tags-color: #34495e;
-    --color-github: #ecf0f1;
+    --color-icon-menu: invert(98%) sepia(68%) saturate(5003%) hue-rotate(179deg) brightness(117%) contrast(89%);
+    --color-github: invert(98%) sepia(68%) saturate(5003%) hue-rotate(179deg) brightness(117%) contrast(89%);
 }
 
 .header{
@@ -35,6 +38,7 @@ body.dark{
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    z-index: 10;
     min-width: 100vw;
     top: 0;
     height: 75px;
@@ -66,8 +70,29 @@ body.dark{
     font-size: 0.8rem;
 }
 
+.section-item,
+.section-item__change-language{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .section-item{
     margin: 1em;
+}
+
+.icon-menu{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.4em;
+    filter: var(--color-icon-menu);
+}
+
+.icon-mode{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.4em;
+    filter: var(--color-icon-menu);
 }
 
 .section-item__change-language{
@@ -201,7 +226,7 @@ body.dark{
 
 .project__tag{
     padding: .4em .8em;
-    margin-left: 1em;
+    margin-right: 1em;
     margin-top: 1em;
     border-radius: 5px;
     background-color: var(--bg-tags-color);
@@ -245,11 +270,16 @@ body.dark{
     text-decoration: none;
     border-radius: 5px;
     margin-right: 1em;
+    display: flex;
+    justify-content: center;
 } 
 
 .project-icon{
-    font-size: 1.2em;
-    margin-right: 0.5rem;
+    width: 18px;
+    height: 18px;
+    margin-right: 0.4em;
+    position: relative;
+    filter: var(--color-filter-project-icons);
 }
 
 @media screen and (max-width:1200px){
@@ -283,19 +313,20 @@ body.dark{
 }
 
 .contact-icon{
-    font-size: 2rem;
+    width: 32px;
+    height: 32px;
 }
 
 .contact-icon--black{
-    color: var(--color-github);
+    filter: var(--color-github);
 }
 
 .contact-icon--blue{
-    color: #0a66c2;
+    filter: invert(16%) sepia(99%) saturate(6007%) hue-rotate(201deg) brightness(100%) contrast(92%);
 }
 
 .contact-icon--red{
-    color: #e74c3c;
+    filter: invert(34%) sepia(88%) saturate(1122%) hue-rotate(335deg) brightness(96%) contrast(88%);
 }
 
 .contact__link{
