@@ -185,7 +185,7 @@ body.dark{
     display: flex;
     justify-content: space-between;
     font-size: .6rem;
-    width: 275px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
