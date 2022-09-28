@@ -7,6 +7,11 @@ const languageContent = document.getElementById('section-language-content');
 const btnSpanish = document.getElementById('spanish-language');
 const btnEnglish = document.getElementById('english-language');
 const textInPage = document.querySelectorAll("[data-section]");
+const btnHamburger = document.getElementById('hamburger-btn');
+const desMenu = document.getElementById('desplegable-menu');
+const langOptions = document.getElementById('change-language-options');
+const btnLanguageMenuSmall = document.getElementById('btn-option-languages');
+
 let stateIconMode = true;
 
 const changeLanguage = async (language) => {
@@ -20,10 +25,22 @@ const changeLanguage = async (language) => {
     }
 }
 
+btnLanguageMenuSmall.addEventListener('click', ()=>{
+    langOptions.classList.toggle('change-language--show');
+});
+
+btnHamburger.addEventListener('click', ()=>{
+    desMenu.classList.toggle('desplegable-menu--show');
+    langOptions.classList.remove('change-language--show');
+});
 
 document.addEventListener('click', (e)=>{
     if(e.target.closest('#section-item-language') === null && e.target.closest('#section-language-content') === null){
         languageContent.classList.remove('language-content--show');
+    }
+    if(e.target.closest('#option-languages-desplegable-menu') === null && e.target.closest('#hamburger-btn') === null && e.target.closest('#btn-option-languages') === null){
+        desMenu.classList.remove('desplegable-menu--show');
+        langOptions.classList.remove('change-language--show');
     }
 });
 

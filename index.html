@@ -47,10 +47,50 @@
       </div>
     </div>
 
+    <div class="menu-small-screen" id="hamburger-btn">
+      <div class="hamburger-menu">
+        <span class="hamburger-menu__bar"></span>
+        <span class="hamburger-menu__bar"></span>
+        <span class="hamburger-menu__bar"></span>
+      </div>
+    </div>
+
 
   </header>
 
   <main class="main">
+
+    <section class="desplegable-menu" id="desplegable-menu">
+
+      <div class="desplegable-menu__item">
+        <img src="assets/icon/user-solid.svg" alt="" class="icon-menu">
+        <a href="#about-me-section" class="item-nav-link" data-section="menu" data-value="about-me-item">Acerca de mi</a>
+      </div>
+
+      <div class="desplegable-menu__item">
+        <img src="assets/icon/diagram-project.svg" alt="" class="icon-menu">
+        <a href="#projects-section" class="item-nav-link" data-section="menu" data-value="projects-item">Proyectos</a>
+      </div>
+
+      <div class="desplegable-menu__item">
+        <img src="assets/icon/contact.svg" alt="" class="icon-menu">
+        <a href="#contact-section" class="item-nav-link" data-section="menu" data-value="contact-item">Contacto</a>
+      </div>
+
+      <div class="desplegable-menu__item" id="btn-option-languages">
+          <img src="assets/icon/language-solid.svg" alt="" class="icon-menu">
+          <a href="#!" class="item-nav-link section-item-language" data-section="menu" data-value="change-language-item">Cambiar idioma</a>
+      </div>
+
+    </section>
+
+    <section class="options-languages-desplegable-menu">
+      <div class="desplegable-menu__item change-language" id="change-language-options">
+        <a href="#!" class="item-nav-link item-nav-link--color" id="spanish-language" data-section="menu" data-value="spanish-item">Español</a>
+        <a href="#!" class="item-nav-link item-nav-link--color" id="english-language" data-section="menu" data-value="english-item">Ingles</a>
+      </div>
+    </section>
+
     <section class="row-1"  id="about-me-section">
       <article class="about-me">
 
@@ -219,16 +259,16 @@
       <div class="contact-body-container">
   
         <div class="contact__item">
-          <img src="assets/icon/github.svg" alt="" class="contact-icon contact-icon--black">
-          <a href="https://github.com/JulianMolina99" class="contact__link" target="_blank"> github</a>
+          
+          <a href="https://github.com/JulianMolina99" class="contact__link" target="_blank"> <img src="assets/icon/github.svg" alt="" class="contact-icon contact-icon--black">
+          <span class="contact__text">github</span></a>
         </div>
         <div class="contact__item">
-          <img src="assets/icon/email.svg" alt="" class="contact-icon contact-icon--red">
-          <a href="mailto: julianmolinac99@gmail.com" class="contact__link" target="_blank">Gmail</a>
+          <a href="mailto: julianmolinac99@gmail.com" class="contact__link" target="_blank"><img src="assets/icon/email.svg" alt="" class="contact-icon contact-icon--red"> <span class="contact__text">gmail</span></a>
         </div>
         <div class="contact__item">
-          <img src="assets/icon/linkedin.svg" alt="" class="contact-icon contact-icon--blue">
-          <a href="https://www.linkedin.com/in/julian-steven-molina-campos/" class="contact__link" target="_blank">linkedin</a>
+        
+          <a href="https://www.linkedin.com/in/julian-steven-molina-campos/" class="contact__link" target="_blank"><img src="assets/icon/linkedin.svg" alt="" class="contact-icon contact-icon--blue"> <span class="contact__text">linkedin</span></a>
         </div>
   
       </div>
