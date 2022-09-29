@@ -5,14 +5,27 @@
         "contact-item": "Contacto",
         "change-language-item":"Cambiar idioma",
         "spanish-item": "Español",
-        "english-item": "Ingles"
+        "english-item": "Inglés"
 
     },
     "profile":{
         "about-me-title": "Acerca de mí",
-        "first-paragraph": "Soy un Ingeniero Electronico al que le gusta construir cosas con codigo.",
-        "second-paragraph": "Mi gusto por la programacion comenzo en el 2017, en el segundo semestre de la carrera. Despues de aprender los conceptos basicos y practicar constantemente, la programacion realmente me engancho. Desde hacer un juego con leds hasta hacer que un robot saliera de un laberinto era algo muy emocionante de ver.",
-        "third-paragraph": "Programar es ver tu logica plasmada en un computador diciendole que debe hacer, es algo que te reta constantemente y creo que la mejor forma de aprender es hacer proyectos directamente, esto realmente fortalece las habilidades no solo en el lenguaje en el que programas sino que tambien mejora la capacidad de resolver problemas.",
+        "first-paragraph": "Soy un Ingeniero Electrónico al que le gusta construir cosas con código.",
+        "second-paragraph": "Mi gusto por la programación comenzó en el 2017, en el segundo semestre de la carrera. Después de aprender los conceptos básicos y practicar constantemente, la programación realmente me engancho. Desde hacer un juego con leds hasta hacer que un robot saliera de un laberinto era algo muy emocionante de ver.",
+        "third-paragraph": "Programar es ver tu lógica plasmada en un computador diciéndole que debe hacer, es algo que te reta constantemente y creo que la mejor forma de aprender es hacer proyectos directamente, esto realmente fortalece las habilidades no solo en el lenguaje en el que programas sino que también mejora la capacidad de resolver problemas.",
         "fourth-paragraph": "Ahora estoy buscando un empleo de tiempo completo en donde pueda contribuir a una empresa con mis habilidades, alcanzar objetivos y seguir creciendo profesionalmente."
+    },
+    "projects":{
+        "project-title": "Proyectos",
+        "btn-code": "código",
+        "wikipedia-paragraph": "El objetivo de este proyecto es aprender a utilizar una API (en este caso la de Wikipedia) y familiarizarse con la documentación. Así mismo, conocer la librería Axios de JavaScript en la que podremos realizar peticiones al servidor mediante el método GET y obtener respuestas en formato JSON, donde la información será procesada y mostrada al usuario.",
+        "quiz-paragraph": "n este proyecto se profundiza en la programación orientada objetos: el proyecto consiste en un total de 6 preguntas en donde se imprime en pantalla el objeto que contiene la información del quiz y luego se evalúa si el usuario selecciono alguna respuesta o no, actualizando el puntaje que se mostrara al finalizar el quiz.",
+        "calculator-paragraph-1": "En este proyecto se abordan temas de posicionamiento con flexbox, pseudoclase :nth-child() de CSS y Function() de JavaScript que nos permite evaluar una expresión basada en una cadena.",
+        "calculator-paragraph-2": "La programación de la calculadora se realiza mediante una máquina de estados finitos compuesta de tres estados: el inicial donde los valores de la calculadora están en ceros y se introduce un valor, el segundo donde se introducen varios valores y el tercero donde el usuario presiona el botón de igual.",
+        "counterdown-paragraph": "En este proyecto se realiza una cuenta regresiva hasta el año 2023 mediante el cálculo de la fecha con el objeto Date de JavaScript que representa los milisegundos desde el primero de enero de 1970, esta aplicación sencilla se puede aplicar a páginas web que muestre la cuenta regresiva de fechas importantes.",
+        "movies-paragraph": "Para esta aplicación se utiliza la API de películas TMDB y la librería de Axios con la petición GET para obtener información de las películas: el poster, el título, la calificación de los usuarios y la sinopsis. Contiene distintas secciones como inicio, estrenos, géneros y una barra de búsqueda."
+    },
+    "contact":{
+        "contact": "Contacto"
     }
 }

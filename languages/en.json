@@ -14,5 +14,18 @@
         "second-paragraph": "My love for programming started in 2017, in the second semester of my degree. After learning the basics and practicing constantly, programming really got me hooked. From making a game with LEDs to making a robot come out of a maze was exciting to watch.",
         "third-paragraph": "Programming is to see your logic expressed in a computer telling it what to do, it is something that challenges you constantly and I think the best way to learn is to do projects directly, this really strengthens the skills not only in the language in which you program but also improves the ability to solve problems.",
         "fourth-paragraph": "I am now looking for a full-time job where I can contribute my skills to a company, achieve goals and continue to grow professionally."
+    },
+    "projects":{
+        "project-title": "Projects",
+        "btn-code": "code",
+        "wikipedia-paragraph": "The objective of this project is to learn how to use an API (in this case Wikipedia's) and become familiar with the documentation. Also, to know the Axios JavaScript library in which we will be able to make requests to the server using the GET method and obtain responses in JSON format, where the information will be processed and displayed to the user.",
+        "quiz-paragraph": "In this project we go deeper into object oriented programming: the project consists of a total of 6 questions where the object containing the quiz information is printed on the screen and then it is evaluated whether the user selected an answer or not, updating the score that will be displayed at the end of the quiz.",
+        "calculator-paragraph-1": "This project addresses positioning issues with flexbox, CSS pseudoclass :nth-child() and JavaScript Function() that allows us to evaluate a string-based expression.",
+        "calculator-paragraph-2": "The programming of the calculator is done by means of a finite state machine composed of three states: the initial state where the calculator values are at zero and a value is entered, the second state where several values are entered and the third state where the user presses the equals button.",
+        "counterdown-paragraph": "In this project a countdown to the year 2023 is performed by calculating the date with the JavaScript Date object that represents the milliseconds since January 1, 1970, this simple application can be applied to web pages that show the countdown of important dates.",
+        "movies-paragraph": "This application uses the TMDB movie API and the Axios library with the GET request to get information about the movies: the poster, the title, the user rating and the synopsis. It contains different sections such as home, premieres, genres and a search bar."
+    },
+    "contact":{
+        "contact": "Contact"
     }
 }
